@@ -52,12 +52,9 @@ const createScene = (): Scene => {
   // Return the created scene
   return scene;
 };
-// add event listener on window.load to put all process in place
-//window.addEventListener('load', () => {
 // call the createScene function
 const scene: Scene = createScene();
 // run the render loop
 engine.runRenderLoop(() => scene.render());
-//});
 // the canvas/window resize event handler
 window.addEventListener('resize', () => engine.resize());
