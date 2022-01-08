@@ -6,7 +6,6 @@ import {
   Mesh,
   MeshBuilder,
   Scene,
-  Sound,
   Vector3,
 } from '@babylonjs/core';
 
